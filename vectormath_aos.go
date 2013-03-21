@@ -4,8 +4,12 @@
 
 package vectormath
 
+type Vector2 struct {
+	X, Y float32
+}
+
 type Vector3 struct {
-	X, Y, Z, _ float32
+	X, Y, Z float32
 }
 
 type Vector4 struct {
@@ -13,7 +17,7 @@ type Vector4 struct {
 }
 
 type Point3 struct {
-	X, Y, Z, _ float32
+	X, Y, Z float32
 }
 
 type Quat struct {
